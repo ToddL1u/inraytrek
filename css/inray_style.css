@@ -1,0 +1,74 @@
+/* 
+    Document   : inray_style
+    Created on : 2013/7/19, 上午 11:44:42
+    Author     : Todd
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+body {
+    /*font-family: Microsoft JhengHei, 微軟正黑體;*/
+    font-family: Microsoft JhengHei,  微軟正黑體, Arial, sans-serif;
+    padding-bottom: 40px;
+}
+
+.container-narrow {
+    margin: 20px auto;
+    max-width: 900px;
+}
+
+.title{
+    text-align: left;
+    font-size:21px;
+    color: #0C8CAF;
+    font-weight: bold;
+}
+
+.dash{
+    margin: 10px 0;    
+}
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+    background-color: #E6E6E6;
+}
+
+ul li span{
+    font-weight: bold;
+}
+
+ul li span img{
+    margin: 5px;
+}
+
+dt{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.btn-custom {
+    background-color: hsl(196, 64%, 49%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#afdded", endColorstr="#2ca2cc");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#afdded), to(#2ca2cc));
+    background-image: -moz-linear-gradient(top, #afdded, #2ca2cc);
+    background-image: -ms-linear-gradient(top, #afdded, #2ca2cc);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #afdded), color-stop(100%, #2ca2cc));
+    background-image: -webkit-linear-gradient(top, #afdded, #2ca2cc);
+    background-image: -o-linear-gradient(top, #afdded, #2ca2cc);
+    background-image: linear-gradient(#afdded, #2ca2cc);
+    border-color: #2ca2cc #2ca2cc hsl(196, 64%, 41%);
+    color: #fff !important;
+    text-shadow: 1px 1px 1px #888;
+    -webkit-font-smoothing: antialiased;
+}
+
+.head_title{
+    color: #2EACD2;
+    text-shadow: 0 1px 1px #9A9C99;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 40px 0;
+}
